@@ -3,7 +3,7 @@
 body {
     background-color: hsl(212, 45%, 89%);
     font-size: 15px;
-    height: 100vh;
+    min-height: 100vh;
     display: flex;
     align-items:center;
     justify-content: center;
@@ -13,30 +13,29 @@ body {
 
 
 img {
-    margin-top: 15px;
-    width: calc(100% - 30px);
-    border-radius: 10px;
+    margin-top: 1rem;
+    max-width: calc(100% - 2rem);
+    border-radius: 0.7rem;
 }
 
 
 .container {
     background-color: hsl(0, 0%, 100%);
     font-family: 'Outfit', sans-serif;
-    width: 300px;
-    border-radius: 15px;
+    max-width: 19rem;
+    border-radius: 1rem;
     text-align: center;
     box-shadow: 0 3px 10px rgb(0 0 0 / 0.2);
-    padding-bottom: 1rem;
 }
 
 h3 {
     font-weight: 700;
     color: hsl(218, 44%, 22%);
-    padding: 0 27px;
+    padding: 0 1.7rem;
 }
 
 p {
     font-weight: 400;
     color: hsl(220, 15%, 55%);
-    padding: 0 27px;
+    padding: 0 1.7rem 2rem;
 }
